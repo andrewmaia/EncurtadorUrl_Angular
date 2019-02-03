@@ -1,27 +1,15 @@
 # EncurtadorUrl
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.1.
+Para rodar este projeto é necessário instalar o NodeJs: https://nodejs.org/en/.
+Depois deve-se instalar o Angular-Cli: ir em um console e executar: npm install -g @angular/cli
 
-## Development server
+Este projeto está no GIT em https://github.com/andrewmaia/EncurtadorUrl_Angular. Mas as bibliotecas
+necessárias para o projeto em modo de desenvolvimento da pasta node_modules não estão. Por isso é acoselhado baixar o projeto da pasta que subi para o dropbox (link no email) que já contém tudo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Rodar o projeto em desenvolvimento
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Primeiramente é necessário rodar o projeto da API no endereço https://localhost:5001 pois este projeto o acessa como backend.
+Para rodar o projeto basta navegar até o seu diretório principal (EncurtadorUrl_Angular) pelo console do windows e executar ng serve --open
+O site deve abrir em  `http://localhost:4200/`
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
